@@ -1,0 +1,40 @@
+.tasks{
+    width:100%;
+    margin-left:20px;
+    list-style: none;
+}
+.task-item{
+    width:80%;
+    padding:5px;
+    margin:auto;
+    color:brown;
+    border: 1px solid brown;
+    text-align: left;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:10px;
+    /* width:100%; */
+}
+.item-btns{
+    display:flex;
+    gap:5px;
+}
+.delete , .check{
+    border: 1px solid brown;
+    cursor:pointer;
+    border-radius:1px;
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    -ms-border-radius:1px;
+    -o-border-radius:1px;
+    -webkit-border-radius:1px ;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.delete{
+    background-color: brown;
+    color:#fff;
+}

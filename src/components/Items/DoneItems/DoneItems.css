@@ -1,0 +1,16 @@
+.checked-tasks span{
+    position:relative;
+
+
+}
+.checked-tasks span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 17px;
+    height: 17px;
+    background-color: brown;
+    border-radius: 50%;
+}
